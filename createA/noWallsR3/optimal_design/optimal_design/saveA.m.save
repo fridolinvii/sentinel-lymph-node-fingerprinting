@@ -1,0 +1,34 @@
+function weight = find_weight(radiantSource)
+
+pixelSize = 172e-3;
+numberOfPixel = [195 487];
+sigma = 1;
+
+
+
+[detectorX,detectorY,holesXY,x,y,z] = saveDetector(pixelSize,numberOfPixel);
+s = imgaussfilt(reshape(radiantSource,size(x)));
+
+% find activ pixel and ignore the rest
+p = s>0;
+x = x(p);
+y = y(p);
+z = z(p);
+
+
+e(z)';
+
+
+for n = 1:length(holesXY)
+
+
+%saveA_condor(n,zo) 
+
+end
+
+
+
+
+
+
+
