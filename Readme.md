@@ -35,8 +35,16 @@ auswerten.m : Table 2
 
 * **Note:** This is done for *noWallsN*, *R3*, and *withWallsN*.
 
+#### Data
+Please contact *Prof. Dr. Philippe C. Cattin* (philippe.cattin@unibas.ch) to access the data
+ 
+The RAW data
+* s3://moonstar-slnf/main/
 
-* TO DO: ADD HOW TO GET IMAGE_BEARBEITET
+Processed data
+* s3://moonstar-slnf/slnf/
+* copy the folder `image_bearbeitet` into `fingerprinting/R3`
+* `cutter.m` has the different parameters for the preprocessing of the data
 
 ## Plotting the error
 `error_sym_vs_nonsym` fingerprintL2_new.m creates Figure 14
@@ -54,22 +62,3 @@ Visualize Figure 5
 ## Other
 `functionalC`
 This creates Figure 8 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* To Dos
-	* Explain data
