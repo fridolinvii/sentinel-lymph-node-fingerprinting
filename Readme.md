@@ -21,16 +21,35 @@ auswerten.m : Table 2
 	* #5 error{t,7}.err
 	* #6 error{t,6}.err
 	* #7 error{t,9}.err
+* copy the matrix `Ao.mat` created in `createA/noWallsR3/saveA` into the folder `fingerprinting/R3`
+* execute `lowpassfiltDict.m` to create from `Ao.mat` the matrix `DictLLN.mat`
+* execute `fingerprinting.m` to get the 3D contstruction from all the pattern in the folder `image_bearbeitet` which are saved in `SOURCE_LL.mat`
+* execute `auswerten.m` to save the error in the matrix `error.mat`
 
-`createA/optimal_design_withWallsN_vs_noWallsR3`
-* creates table 1. 
+
+* **Note:** This is done for *noWallsN*, *R3*, and *withWallsN*.
+
+
+* TO DO: ADD HOW TO GET IMAGE_BEARBEITET
+
+
+`createA/optimal_design_withWallsN_vs_noWallsR3` 
+ creates table 1. 
 * Warning: Creating new sources will create new numbers of the table!
     * use auswerten.m to get the number for Table 1.
     * use vergleichen.m to get error100.mat
 * Warning: using createDifferentSource.m will change source.mat and you get different numbers.
 
 
-`createA/noWallsR3/saveA`
-* create matrix for R3 (non-symetric collimator. Rest is similar)
+`createA/noWallsR3/saveA` 
+create matrix for R3 (non-symetric collimator. Rest is similar)
 * Step 1) saveA.m
+* Step 2) createA.m
+* Step 3) createA_2.m
 
+
+
+
+
+* To Dos
+	* Explain data
