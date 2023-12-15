@@ -1,16 +1,15 @@
 # Sentinel lymph node fingerprinting
 This is the code to the paper [Sentinel lymph node fingerprinting](http://iopscience.iop.org/10.1088/1361-6) (Physics in Medicine and Biology 2019).
 
+## Create Matrix Ao
+`createA/noWallsR3/saveA` 
+create matrix for R3 (non-symetric collimator. Rest is similar)
+* Step 1) saveA.m
+* Step 2) createA.m
+* Step 3) createA_2.m
 
-`optimal_design`
-Visualize Figure 5
 
-`functionalC`
-This creates Figure 8 
-
-`error_sym_vs_nonsym`
-fingerprintL2_new.m creates Figure 14
-
+## Evaluating the measurments
 `fingerprinting/R3`
 auswerten.m : Table 2
 * for t={2,32} (we use here t=2 and t=32 instead of t=1 and t=16, to compare it better with the results from the with septum walls Collimator. At the point of measurement, it had two times the radioactive strength than during the measurment with the R3 collimator. Therefore, two compare the results the expose time of 1s with the first collimator is the same as if 2s with the R3 collimator
@@ -33,6 +32,21 @@ auswerten.m : Table 2
 * TO DO: ADD HOW TO GET IMAGE_BEARBEITET
 
 
+
+
+
+
+`optimal_design`
+Visualize Figure 5
+
+`functionalC`
+This creates Figure 8 
+
+`error_sym_vs_nonsym`
+fingerprintL2_new.m creates Figure 14
+
+
+
 `createA/optimal_design_withWallsN_vs_noWallsR3` 
  creates table 1. 
 * Warning: Creating new sources will create new numbers of the table!
@@ -41,11 +55,6 @@ auswerten.m : Table 2
 * Warning: using createDifferentSource.m will change source.mat and you get different numbers.
 
 
-`createA/noWallsR3/saveA` 
-create matrix for R3 (non-symetric collimator. Rest is similar)
-* Step 1) saveA.m
-* Step 2) createA.m
-* Step 3) createA_2.m
 
 
 
