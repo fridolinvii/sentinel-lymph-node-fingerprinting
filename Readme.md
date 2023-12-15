@@ -8,6 +8,13 @@ create matrix for R3 (non-symetric collimator. Rest is similar)
 * Step 2) createA.m
 * Step 3) createA_2.m
 
+`createA/optimal_design_withWallsN_vs_noWallsR3` 
+ creates table 1. 
+* Warning: Creating new sources will create new numbers of the table!
+    * use auswerten.m to get the number for Table 1.
+    * use vergleichen.m to get error100.mat
+* Warning: using createDifferentSource.m will change source.mat and you get different numbers.
+
 
 ## Evaluating the measurments
 `fingerprinting/R3`
@@ -31,28 +38,32 @@ auswerten.m : Table 2
 
 * TO DO: ADD HOW TO GET IMAGE_BEARBEITET
 
+## Plotting the error
+`error_sym_vs_nonsym` fingerprintL2_new.m creates Figure 14
+* copy the matrix `SOURCE_LL.mat` from `fingerprinting` and executing `auswerten.m` will give you the error
+* plotting the erros was hardcoded from the results from `auswerten.m`
 
-
-
-
-
+## Optimal Design
 `optimal_design`
 Visualize Figure 5
 
+`createA/noWallsR3/optimal_design`
+* create values for the optimal design
+
+
+## Other
 `functionalC`
 This creates Figure 8 
 
-`error_sym_vs_nonsym`
-fingerprintL2_new.m creates Figure 14
 
 
 
-`createA/optimal_design_withWallsN_vs_noWallsR3` 
- creates table 1. 
-* Warning: Creating new sources will create new numbers of the table!
-    * use auswerten.m to get the number for Table 1.
-    * use vergleichen.m to get error100.mat
-* Warning: using createDifferentSource.m will change source.mat and you get different numbers.
+
+
+
+
+
+
 
 
 

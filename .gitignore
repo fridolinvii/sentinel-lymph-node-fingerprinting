@@ -1,10 +1,13 @@
-Programm/createA/*/saveA/A
-Programm/createA/*/saveA/out
-Programm/createA/*/saveA/outlog
-Programm/createA/*/saveA/*exe
-Programm/createA/*/saveA/saveA
-Programm/createA/*/saveA/*old*
-Programm/createA/*/saveA/*sub
+createA/*/saveA/A
+createA/*/saveA/out
+createA/*/saveA/outlog
+createA/*/saveA/*exe
+createA/*/saveA/saveA
+createA/*/saveA/*old*
+createA/*/saveA/*sub
+createA/*/data
 
+fingerprinting/*/image_bearbeitet
+fingerprinting/*/*.mat
 
-
+error_sym_vs_nonsym/*.mat
