@@ -39,10 +39,10 @@ auswerten.m : Table 2
 Please contact *Prof. Dr. Philippe C. Cattin* (philippe.cattin@unibas.ch) to access the data
  
 The RAW data
-* s3://moonstar-slnf/main/
+* https://dbe-lakefs.dbe.unibas.ch/repositories/moonstar-slnf/main
 
 Processed data
-* s3://moonstar-slnf/slnf/
+* https://dbe-lakefs.dbe.unibas.ch/repositories/moonstar-slnf/slnf
 * copy the folder `image_bearbeitet` into `fingerprinting/R3`
 * `cutter.m` has the different parameters for the preprocessing of the data
 
