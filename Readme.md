@@ -42,7 +42,7 @@ The RAW data
 * https://dbe-lakefs.dbe.unibas.ch/repositories/moonstar-slnf/main
 
 Processed data
-* https://dbe-lakefs.dbe.unibas.ch/repositories/moonstar-slnf/slnf
+* https://dbe-lakefs.dbe.unibas.ch/repositories/moonstar-slnf/objects?ref=slnf&path= (Branch slnf)
 * copy the folder `image_bearbeitet` into `fingerprinting/R3`
 * `cutter.m` has the different parameters for the preprocessing of the data
 
