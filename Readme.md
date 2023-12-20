@@ -1,5 +1,5 @@
 # Sentinel lymph node fingerprinting
-This is the code to the paper [Sentinel lymph node fingerprinting](http://iopscience.iop.org/10.1088/1361-6) (Physics in Medicine and Biology 2019).
+This is the code to the paper [Sentinel lymph node fingerprinting](https://iopscience.iop.org/article/10.1088/1361-6560/ab177d/meta) (Physics in Medicine and Biology 2019).
 
 ## Create Matrix Ao
 `createA/noWallsR3/saveA` 
